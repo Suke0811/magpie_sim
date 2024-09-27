@@ -1,0 +1,11 @@
+mkdocs
+mkdocs-material
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-authors-plugin
+mkdocs-table-reader-plugin
+mkdocs-jupyter
+mkdocs-glightbox
+neoteroi-mkdocs
+mkdocs-macros-plugin
+mkdocs-snippet-plugin
+mkdocstrings[python]

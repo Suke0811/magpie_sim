@@ -1,0 +1,12 @@
+pyserial
+matplotlib
+pandas
+keyboard
+crc
+pynput
+plotly
+magpylib
+numpy-stl
+pyyaml
+wandb
+scipy
