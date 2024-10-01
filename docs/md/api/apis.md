@@ -7,15 +7,30 @@
 
 ## How to Use the `BeamSensorTrajectory` and `MagnetSensorSimulation` Classes
 
-This guide explains how to use the `BeamSensorTrajectory` class in conjunction with the `MagnetSensorSimulation` class for simulating beam and magnetic sensor interactions. The example provided runs a full simulation of sensor and magnet trajectories using beam deformation models and magnet configurations.
+This guide explains how to use the `BeamSensorTrajectory` class in conjunction with the `MagnetSensorSimulation` class for simulating beam and magnetic sensor interactions. 
+The example provided runs a full simulation of sensor and magnet trajectories using beam deformation models and magnet configurations.
+
+For the APIs, please see the following links. 
+
+::cards::  image-tags cols="3" class_name="bigger"
+- title: Beam Deformation
+  content: • Von Karaman Beam Solver <br> • Beam deformation in $x$, $y$ and $\theta$
+  url: ../beam
+- title: Magnetic Simulation
+  content: • Magnetic field simulation <br> • Sensor plots <br> • stream plots
+  url: ../mag
+- title: Trajectory Generator
+  content: • handle sequential trajectory generation
+  url: ../traj
+::/cards::
+
+---
 
 ## Prerequisites
 Before running the code, make sure you have the following packages installed:
-- `numpy`
-- `scipy`
-- `plotly`
-- `pandas`
-- `MagPyLib`
+```bash
+pip install -r requirements.txt
+```
 
 ## Example Usage
 

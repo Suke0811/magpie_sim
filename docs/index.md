@@ -1,4 +1,5 @@
-# Mechanisms and Computational Design of Multi-Modal End-Effector with Force Sensing using Gated Networks
+# Multi-Modal End-Effector
+## Mechanisms and Computational Design of Multi-Modal End-Effector with Force Sensing using Gated Networks
 
 
 <div style="text-align: center">

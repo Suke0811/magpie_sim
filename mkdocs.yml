@@ -8,7 +8,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+#    - toc.integrate
     - navigation.top
     - navigation.footer
     - navigation.instant
@@ -125,7 +125,11 @@ extra_css:
 nav:
   - Home:
       - index.md
-      - howto/mkdocs.md
+  - Framework:
+      - md/sim/overall.md
+      - md/sim/beam.md
+      - md/sim/mag.md
+      - md/sim/gru.md
   - Data:
       - md/data/material.md
   - APIs:
