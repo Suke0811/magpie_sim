@@ -20,14 +20,17 @@
 ### Sweeping Parameters
 $\Gamma_{b},\Gamma_{\mathcal{M}}$
 
-| Parameter          | Values                             |
-|--------------------|------------------------------------|
-| L (Length of beam) | 10, 30, 50 (mm)                    |
-| b (Width of beam)  | 5, 10, 20 (mm)                     |
-| h (Thickness of beam) | 1, 5, 10 (mm)                   |
-| magnet_D (Diameter of magnet) | 0.001, 0.002, 0.003, 0.005 (m) |
-| magnet_L (Length of magnet) | 0.001, 0.002, 0.003, 0.005 (m) |
-| magnet_distance (Distance of magnet from sensor) | 0.0015, 0.003, 0.005 (m) |
+Here, we sweeped 5,000 different parameters per material, totaling 30,000 parameter combinations.
+
+| Parameter                             | Values                                      |
+|---------------------------------------|---------------------------------------------|
+| L (Length of beam)                    | 10, 30, 50, 100 (mm)                        |
+| b (Width of beam)                     | 5, 10 (mm)                                  |
+| h (Thickness of beam)                 | 1, 2, 5, 8, 10 (mm)                         |
+| magnet_D (Diameter of magnet)         | 0.001, 0.003, 0.005, 0.01, 0.02 (m)         |
+| magnet_L (Length of magnet)           | 0.001, 0.003, 0.005, 0.01, 0.02 (m)         |
+| magnet_distance (Distance from sensor) | 0.001, 0.003, 0.005, 0.01, 0.015 (m)        |
+
 
 
 ### Material Parameters
